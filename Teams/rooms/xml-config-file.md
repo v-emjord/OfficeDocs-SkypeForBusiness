@@ -94,7 +94,7 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 |\<ModernAuthEnabled> |Boolean &#x2777;  |  |Disabled by default. <br/> <br/>When set to true, the Microsoft Teams Rooms application only uses modern authentication to connect to resources and doesn't fall back to basic authentication.|
 |\<DomainUsername\> |String  &#x2778;  ||The domain and user name of the console device, for example Seattle\RanierConf. |
 |\<Password\> |String 3  || The password parameter is the same password used for the Skype for Business device account sign-in.  |
-|\<PasswordRotationEnabled> |Boolean &#x2777;  |First &#x2776;  |Enables automatic password rotation. |
+|\<PasswordRotationEnabled> |Boolean &#x2777;  |First &#x2776;  |Disabled by default. |
 |\<PasswordUpdateFrequencyInDays> |int;  |First &#x2776;  |Sets frequency of password rotation in days. |
 | \<ConfigureDomain\>  |String  &#x2778;  ||You can list several domains, separated by commas. |
 |\<TeamsMeetingsEnabled\> |Boolean &#x2777;  |First &#x2776;  |Disabled by default. <br/> <br/> The XML file is considered badly formed if both \<SkypeMeetingsEnabled\> and\<TeamsMeetingsEnabled\> are disabled, but it's acceptable to have both settings enabled at the same time. |
@@ -102,7 +102,7 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 |\<WebExMeetingsEnabled> |Boolean &#x2777;  |First &#x2776;  |Disabled by default. |
 |\<ZoomMeetingsEnabled> |Boolean &#x2777;  |First &#x2776;  |Disabled by default. |
 |\<BluetoothAdvertisementEnabled> |Boolean &#x2777;  |First &#x2776;  |Enabled by default. |
-|\<AutoAcceptProximateMeetingInvitations> |Boolean &#x2777;  |First &#x2776;  |Enabled by default. |
+|\<AutoAcceptProximateMeetingInvitations> |Boolean &#x2777;  |First &#x2776;  |Disabled by default. |
 |\<DualScreenMode\>  |Boolean &#x2777;  |First &#x2776;  |If true, dual screen mode is enabled. Otherwise the device uses single screen mode. |
 | \<DuplicateIngestDefault\> |Boolean &#x2777;  |First &#x2776; |If true, content is shown on both screens in dual screen mode, when out of meeting. | 
 |\<SendLogs\> |Container |First &#x2776;  |  |
