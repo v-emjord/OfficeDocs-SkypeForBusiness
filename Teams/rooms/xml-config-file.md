@@ -33,6 +33,7 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
 <SkypeSettings>
     <AutoScreenShare>true</AutoScreenShare>
     <HideMeetingName>true</HideMeetingName>
+    <AutoExitMeetingEnabled>true</AutoExitMeetingEnabled>
     <UserAccount>
         <SkypeSignInAddress>RanierConf@contoso.com</SkypeSignInAddress>
         <ExchangeAddress>RanierConf@contoso.com</ExchangeAddress>
@@ -80,6 +81,7 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 |\<SkypeSettings\> |Container for all elements. ||Required. |
 | \<AutoScreenShare\>  |Boolean &#x2777;  |First &#x2776;  | If true, auto screen share is enabled.  |
 |\<HideMeetingName\> |Boolean &#x2777;  |First &#x2776;  |If true, meeting names are hidden. |
+|\<AutoExitMeetingEnabled\> |Boolean &#x2777;  |First &#x2776;  |If true, leaves meetings automatically if everyone else has left. |
 |\<UserAccount\> |Container |First &#x2776;  |Container for credentials parameters. The sign-in address, Exchange address, or email address are usually the same, such as RanierConf<span></span>@contoso.com. |
 |\<SkypeMeetingsEnabled\>  |Boolean &#x2777;  |First &#x2776;  |Enabled by default. |
 |\<SkypeSignInAddress\> |String  &#x2778;  ||The sign-in name for the console's SfB or Teams device account. |
