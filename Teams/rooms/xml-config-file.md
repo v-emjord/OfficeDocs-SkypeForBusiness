@@ -95,7 +95,7 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 |\<DomainUsername\> |String  &#x2778;  ||The domain and user name of the console device, for example Seattle\RanierConf. |
 |\<Password\> |String 3  || The password parameter is the same password used for the Skype for Business device account sign-in.  |
 |\<PasswordRotationEnabled> |Boolean &#x2777;  ||If true, requires user to set new password at set interval of days. |
-|\<PasswordUpdateFrequencyInDays> |Integer;  ||Sets frequency of password rotation in days. Acceptable values include: 2, 30, 60, and 90. Otherwise value is not updated. |
+|\<PasswordUpdateFrequencyInDays> |Integer  ||Sets frequency of password rotation in days. Acceptable values include: 2, 30, 60, and 90. Otherwise value is not updated. |
 | \<ConfigureDomain\>  |String  &#x2778;  ||You can list several domains, separated by commas. |
 |\<TeamsMeetingsEnabled\> |Boolean &#x2777;  |First &#x2776;  |Disabled by default. <br/> <br/> The XML file is considered badly formed if both \<SkypeMeetingsEnabled\> and\<TeamsMeetingsEnabled\> are disabled, but it's acceptable to have both settings enabled at the same time. |
 |\<IsTeamsDefaultClient> |Boolean &#x2777;  |First &#x2776;  |Disabled by default. |
